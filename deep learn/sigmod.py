@@ -60,7 +60,6 @@ output_layer = OutputLayer(n_mid, n_out)
 
 # --学习--
 for i in range(epoch):
-    
     #随机打乱索引值
     index_random = np.arange(n_data)
     np.random.shuffle(index_random)
