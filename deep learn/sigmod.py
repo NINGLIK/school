@@ -44,6 +44,7 @@ class MiddleLayer:
     def forward(self,x):                                        # 正向传播
         self.x = x
         u = np.dot(x, self.w) + self.b                          # 中间层的净输入
+        # sigmoid函数
         self.y = 1 / (1 + np.exp(-u))                           # sigmoid函数
     def backward(self,grad_y):                                  # 反向传播
         delta = grad_y * (1-self.y) * self.y                    # sigmoid函数的微分
