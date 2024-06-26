@@ -1,0 +1,575 @@
+{
+    "root": {
+        "data": {
+            "id": "d1q2960rwm80",
+            "created": 1717385227867,
+            "text": "数据可视化思维导图"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d1q2aww3he00",
+                    "created": 1717385364722,
+                    "text": "数据预处理",
+                    "layout_mind_offset": {
+                        "x": -11.999999910593033,
+                        "y": -157.99999882280827
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d1q2gd4sdiw0",
+                            "created": 1717385791897,
+                            "text": "数据读取"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d1q2heuav540",
+                                    "created": 1717385873980,
+                                    "text": "文件读取"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d1q2gmb0a2o0",
+                                            "created": 1717385811864,
+                                            "text": "csv读取"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1q2gqvmy400",
+                                            "created": 1717385821818,
+                                            "text": "excel读取"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1q2gwgrsqo0",
+                                            "created": 1717385833980,
+                                            "text": "txt读取"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2hkr9oio0",
+                                    "created": 1717385886859,
+                                    "text": "数据库读取",
+                                    "layout_right_offset": {
+                                        "x": 6.500002241382958,
+                                        "y": 29.99999858438973
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d1q2vlc6ya80",
+                            "created": 1717386985221,
+                            "text": "处理数据"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d1q2vq85nd40",
+                                    "created": 1717386995861,
+                                    "text": "一致性校验"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2vx6dof40",
+                                    "created": 1717387010991,
+                                    "text": "缺少值校验"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2w1f9n6o0",
+                                    "created": 1717387020235,
+                                    "text": "异常值校验"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2wbcuqf40",
+                                    "created": 1717387041857,
+                                    "text": "清洗数据"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d1q2wf136400",
+                                            "created": 1717387049853,
+                                            "text": "重复值处理"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1q2wljkx6w0",
+                                            "created": 1717387064032,
+                                            "text": "缺失值处理"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1q2yedy7vc0",
+                                            "created": 1717387205182,
+                                            "text": "异常值处理"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2yqtb9ko0",
+                                    "created": 1717387232233,
+                                    "text": "合并数据"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d1q2ysv5bxs0",
+                                            "created": 1717387236697,
+                                            "text": "堆叠合并数据"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d1q2yz9t5hc0",
+                                                    "created": 1717387250644,
+                                                    "text": "横向"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d1q2z5wru1k0",
+                                                    "created": 1717387265094,
+                                                    "text": "纵向"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2zkd8i740",
+                                    "created": 1717387296564,
+                                    "text": "主键合并数据"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2ztkp9kg0",
+                                    "created": 1717387316606,
+                                    "text": "重叠合并数据"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d1q2jqqriuw0",
+                    "created": 1717386056616,
+                    "text": "matplotlib数据可视化",
+                    "layout_mind_offset": {
+                        "x": -148.00000883142127,
+                        "y": -160.66666560206147
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d1q2l75tao80",
+                            "created": 1717386170719,
+                            "text": "图像原理"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d1q2ldqmm740",
+                                    "created": 1717386185038,
+                                    "text": "图片"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2lg6enxc0",
+                                    "created": 1717386190346,
+                                    "text": "发散原理"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d1q2lm3n1k00",
+                            "created": 1717386203239,
+                            "text": "数据读取预处理"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d1q2lqpkwjs0",
+                                    "created": 1717386213273,
+                                    "text": "第三方库"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d1q2lx1gujk0",
+                                            "created": 1717386227052,
+                                            "text": "numpy"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1q2lzw2okg0",
+                                            "created": 1717386233257,
+                                            "text": "pandas"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2m3uasso0",
+                                    "created": 1717386241856,
+                                    "text": "自己写"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d1q2m86loe00",
+                            "created": 1717386251307,
+                            "text": "绘图"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d1q2mceilxc0",
+                                    "created": 1717386260493,
+                                    "text": "show()"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2mgruuu80",
+                                    "created": 1717386270007,
+                                    "text": "scatter()"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2muuqzog0",
+                                    "created": 1717386300657,
+                                    "text": "bar()"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2mxb4f4w0",
+                                    "created": 1717386306000,
+                                    "text": "pie()"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d1q3054fd0g0",
+                            "created": 1717387341744,
+                            "text": "主题样式"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d1q2ket2ug00",
+                    "created": 1717386108999,
+                    "text": "seaborn绘制"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d1q2rrua4f40",
+                            "created": 1717386685919,
+                            "text": "熟悉seaborn绘图基础"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1q2rygvuow0",
+                            "created": 1717386700346,
+                            "text": "了解seabon绘图风格"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1q2sc56obk0",
+                            "created": 1717386730114,
+                            "text": "熟悉seaborn调色板"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1q2slrtvts0",
+                            "created": 1717386751074,
+                            "text": "绘制"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d1q2sno0uv40",
+                                    "created": 1717386755197,
+                                    "text": "关系图"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d1q2sxt12tc0",
+                                            "created": 1717386777268,
+                                            "text": "散点图"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1q2r048kzc0",
+                                            "created": 1717386625571,
+                                            "text": "折线图"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1q2rctjmfk0",
+                                            "created": 1717386653223,
+                                            "text": "饼图"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2tkdg28g0",
+                                    "created": 1717386826392,
+                                    "text": "分类图"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d1q2tp5eza80",
+                                            "created": 1717386836790,
+                                            "text": "条形图"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1q2qsxfgqw0",
+                                            "created": 1717386609922,
+                                            "text": "散点图"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1q2u3lojzs0",
+                                            "created": 1717386868250,
+                                            "text": "箱型图"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1q2uazkvt40",
+                                            "created": 1717386884326,
+                                            "text": "分类网格组合图"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2ulkm4t40",
+                                    "created": 1717386907366,
+                                    "text": "回归图"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d1q2uomu2ow0",
+                                            "created": 1717386914031,
+                                            "text": "回归网格组合图"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d1q2kmlpr400",
+                    "created": 1717386125968,
+                    "text": "pyecharts绘制"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d1q2qc1mkpc0",
+                            "created": 1717386573170,
+                            "text": "配置项"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d1q2nky4urk0",
+                                    "created": 1717386357458,
+                                    "text": "初始配置项"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2ph358e00",
+                                    "created": 1717386505782,
+                                    "text": "文字配置项"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2pphyyvs0",
+                                    "created": 1717386524093,
+                                    "text": "标签配置项"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2p7v00bk0",
+                                    "created": 1717386485698,
+                                    "text": "系统配置项"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d1q2ph358e00",
+                                            "created": 1717386505782,
+                                            "text": "文字配置项"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1q2pphyyvs0",
+                                            "created": 1717386524093,
+                                            "text": "标签配置项"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2pycm81k0",
+                                    "created": 1717386543360,
+                                    "text": "全局配置项"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d1q2qhyev6g0",
+                            "created": 1717386586037,
+                            "text": "绘制图型"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d1q2qsxfgqw0",
+                                    "created": 1717386609922,
+                                    "text": "散点图"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2r048kzc0",
+                                    "created": 1717386625571,
+                                    "text": "折线图"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2r81aaxc0",
+                                    "created": 1717386642807,
+                                    "text": "3d图"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d1q2rctjmfk0",
+                                    "created": 1717386653223,
+                                    "text": "饼图"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
